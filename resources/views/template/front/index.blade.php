@@ -15,7 +15,7 @@
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->
-	<title>RT 15</title>
+	<title>RT</title>
 	
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:400,500" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
@@ -95,7 +95,7 @@
 					<p>SELAMAT DATANG DI</p>
 					<h1>
 						APLIKASI <br>
-						RUKUN TETANGGA 15/10
+						RUKUN TETANGGA
 					</h1>
 					<a href="{{route('login')}}" class="primary-btn">Masuk</a>
 				</div>
@@ -115,7 +115,7 @@
 	<section class="features-area section-gap-top" id="fitur">
 		<div class="container">
 			<div class="row feature_inner">
-				<div class="col-lg-12 col-md-6"><h1 style="text-align:center;padding-bottom:50px;">Fitur Dalam RTKU 15</h1></div>
+				<div class="col-lg-12 col-md-6"><h1 style="text-align:center;padding-bottom:50px;">Fitur Dalam RTKU</h1></div>
 				<div class="col-lg-4 col-md-6">
 					<div class="feature-item">
 						<i class="fa fa-file-text-o"></i>
@@ -141,7 +141,7 @@
 						<i class="fa fa-newspaper-o"></i>
 						<h4>Berita Internal</h4>
 						<p>
-							Warga dapat melihat update berita terkait lingkungan RT 15 yang akan dishare oleh Pak RT kepada warga nya melalui website ini.
+							Warga dapat melihat update berita terkait lingkungan RT yang akan dishare oleh Pak RT kepada warga nya melalui website ini.
 						</p>
 					</div>
 				</div>
@@ -191,11 +191,7 @@
 						</div>
 						<div class="card-block collapse" id="collapseOne">
 							<div class="card-body" style="text-align: center;">
-								Pada tahun 1990-an penduduk di luar ibukota berangsur-angsur mendatangi ibukota DKI Jakarta dalam rangka mencari pekerjaan ataupun melanjutkan pendidikan ke jenjang universitas. Masyarakat pendatang sedikit demi sedikit mulai memadati ibukota dan salah satunya adalah Kampung Ciracas. Pada saat itu para imigran datang ke Jakarta dan belum adanya rumah yang disewakan oleh para pribumi Kampung Ciracas. Sehingga para pendatang yang ingin tinggal di wilayah Ciracas mau tidak mau harus membeli tanah dan membangun rumahnya sendiri.
-								<br><br>
-								Selanjutnya melihat kondisi para pendatang yang semakin banyak, akhirnya para pribumi yang memiliki tanah mengubah mata pencahariannya, yang awalnya seorang petani, menjadi pebisnis kontrakan. Hal ini dikarenakan penghasilan dari kontrakan ini sangat menjanjikan. Maka akhirnya terjadilah kepadatan rumah dan penduduk sehingga RT 001 / RW 010 ini harus mengalami sebuah pemekaran.
-								<br><br>
-								Pada Tahun 2002 direncanakan sebuah program pemekaran RT di wilayah RW 010. Kondisi saat itu wilayah Ciracas mulai dipadati masyarakat pendatang. Hal ini menjadi latar belakang dibentuknya kepengurusan RT baru dikarenakan mulai memadatnya warga pada RT 001. Maka pada saat itu, ketua RT 001 / RW 010 melakukan pemekaran terhadap RT nya menjadi RT baru yaitu RT 015 / 010.
+								Pada tahun 2005-an penduduk di luar ibukota berangsur-angsur mendatangi Perumahan Citra Indah City Bukit Angsana Jonggol . Masyarakat pendatang sedikit demi sedikit mulai memadati perumahan dan kluster/komplek salah satunya adalah Bukit Angsana. Pada saat itu para imigran datang ke Perumahan Citra Indah City dan sudah adanya rumah yang diperjual belikan oleh para Marketing Gallery Perumahan Citra Indah City. Sehingga para pendatang yang ingin tinggal di wilayah perumahan citra indah city yaitu termasuk kluster angsana mau tidak mau harus membeli rumah dan membangun atau merenovasi rumahnya sendiri
 							</div>
 						</div>
 					</div>
@@ -207,15 +203,17 @@
 						<div class="card-body" style="text-align: center;">
 							<h3><b>VISI</b></h3>
 							<br>
-							<p>Membentuk kerukunan warga dan memelihara lingkungan yang aman, nyaman, tentram, bersih, sehat, cerdas, dan kreatif serta membangun kerjasama lingkungan yang harmonis dengan pelaksanaanya yang bertanggung jawab</p>
+							<ol>
+								<li>1. Mewujudkan masyarakat yg rukun , damai dan saling guyup serta bertoleransi sesama tetangga atau warga di wilayah RT 09/10</li>
+								<li>2. Memfasilitasi masalah administrasi kependudukan bersinergi dengan RW, Kadus dan Kades hingga kecamatan</li>
+								<li>3. Menciptakan lingkungan yang aman, bersih , tertib dan nyaman.</li>
+							</ol>
 							<h3><b>MISI</b></h3>
 							<br>
 							<ol>
-								<li>1. Melayani dan memberikan pelayanan administrasi yang jujur dan transparan</li>
-								<li>2. Menjaga kerukunan warga dengan kegiatan yang positif dan membangun</li>
-								<li>3. Memberikan wadah fasilitas dalam berbagai kegiatan sosial.</li>
-								<li>4. Menjalin kerjasama yang bermanfaat dengan berbagai lembaga internal maupun eksternal.</li>
-								<li>5. Bersama-sama menjaga keamanan, ketertiban dan kebersihan lingkungan</li>
+								<li>1. Mengadakan Kerja Bakti setiap 2 - 3 bulan sekali demi menjaga Kebersihan dan kekompakam kerja sama warga</li>
+								<li>2. Membersihkan rumput dan got setiap 3 bulan sekalian</li>
+								<li>3. Memberikan informasi dari Kantor Desa ke warga menciptakan keamanan, kedamaian dan Kebersihan lingkungan.</li>
 							</ol> 
 						</div>
 					  </div>
@@ -401,7 +399,7 @@
 			<div class="row footer-bottom d-flex justify-content-between">
 				<p class="col-lg-8 col-sm-12 footer-text m-0 text-white">
 					Copyright &copy; <script>document.write(new Date().getFullYear());</script>
-					<a href="https://www.instagram.com/brayenprayoga/" target="_blank">RTKU15</a>
+					<a href="https://www.instagram.com/brayenprayoga/" target="_blank">RTKU</a>
 				</p>
 				<div class="col-lg-4 col-sm-12 footer-social">
 					<a href="https://www.instagram.com/brayenprayoga/" target="_blank"><i class="fa fa-instagram"></i></a>
@@ -419,7 +417,7 @@
 		<div class="modal-dialog modal-lg"" role="document">
 			<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Biografi Ketua RT 15</h5>
+				<h5 class="modal-title" id="exampleModalLabel">Biografi Ketua RT</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 				<span aria-hidden="true">&times;</span>
 				</button>
@@ -608,17 +606,9 @@
 							['Penasihat', 'Ketua'],
 							['Ketua', 'Sekretaris'],
 							['Ketua', 'Bendahara'],
-							['Ketua', 'Humas'],
-							['Ketua', 'Ketahanan'],
-							['Ketua', 'Kesra'],
-							['Ketua', 'Pembangunan'],
-							['Ketua', 'Sosial'],
-							['Ketua', 'PKK'],
-							['Ketua', 'Kartar'],
-							['Ketua', 'Olahraga'],
-							['Ketua', 'Jumantik'],
-							['Ketua', 'Posyandu'],
-							['Ketua', 'Wisma'],
+							['Ketua', 'Seksi Olahraga / Kepemudaan'],
+							['Ketua', 'Seksi Lingkungan'],
+							['Ketua', 'Seksi Remaja'],
 						],
 						nodes: data.org,
 						colorByPoint: false,
