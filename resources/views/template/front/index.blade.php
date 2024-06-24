@@ -291,24 +291,6 @@
 	</section>
 	<!-- End berita Area -->
 
-	<!-- Start video Area -->
-	<section class="callto-area section-gap relative" id="video">
-		<div class="overlay overlay-bg"></div>
-		<div class="container">
-			<div class="row">
-				<?php $video = DB::table('master_video')->first(); ?>
-				<div class="call-wrap mx-auto">
-					<h1>View Last Video</h1>
-					<a id="play-home-video" class="video-play-button" href="{{!empty($video->link)?$video->link : ""}}">
-						<span></span>
-					</a>
-					<p>{{!empty($video->durasi)?$video->durasi : ""}}</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End video Area -->
-
 	<!-- Start testimonial Area -->
 	<section class="testimonial-area relative section-gap" id="testimonial">
 		<div class="container">
@@ -354,32 +336,6 @@
 	</section>
 	<!-- End testimonial Area -->
 
-	<!-- Start brands Area -->
-	<section class="brands-area">
-		<div class="container no-padding">
-			<div class="brand-wrap section-gap">
-				<div class="row align-items-center active-brand-carusel justify-content-start no-gutters">
-					<div class="col single-brand">
-						<a href="#"><img class="mx-auto" src="img/brands/b1.png" alt=""></a>
-					</div>
-					<div class="col single-brand">
-						<a href="#"><img class="mx-auto" src="img/brands/b2.png" alt=""></a>
-					</div>
-					<div class="col single-brand">
-						<a href="#"><img class="mx-auto" src="img/brands/b3.png" alt=""></a>
-					</div>
-					<div class="col single-brand">
-						<a href="#"><img class="mx-auto" src="img/brands/b4.png" alt=""></a>
-					</div>
-					<div class="col single-brand">
-						<a href="#"><img class="mx-auto" src="img/brands/b5.png" alt=""></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End brands Area -->
-
 	<!-- start footer Area -->
 	<footer class="footer-area section-gap">
 		<div class="container">
@@ -390,7 +346,7 @@
 						<img src="img/logo_footer.png" class="img-fluid">
 						<ul>
 							<li></li>
-							<li>Jalan Raya Centex Gg. Epatik RT.15/RW.10<br>Ciracas, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13740<br>Support : <i class="fa fa-envelope"></i> aboutteddybear@gmail.com</li>
+							<li>Perumahan Citra Indah City, Bukit Angsana RT 009 RW 010, Jonggol<br>Support : <i class="fa fa-envelope"></i> abdlazzfarhan28@gmail.com</li>
 						</ul>
 					</div>
 					</center>

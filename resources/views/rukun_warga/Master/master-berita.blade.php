@@ -94,7 +94,6 @@
                     <div class="form-group">
                         <label for="gambar">Gambar</label>
                         <input type="file" class="form-control" id="gambar" name="gambar" accept="image/x-png,image/jpg,image/jpeg">
-                        <input type="hidden" name="gambar_crop" id="gambar_crop">
                     </div>
                     <div class="form-group">
                         <label for="status">Status Berita</label>
@@ -155,7 +154,6 @@
                         <div class="form-group">
                             <label for="gambar">Gambar</label>
                             <input type="file" class="form-control" id="gambar_edit" name="gambar" accept="image/x-png,image/jpg,image/jpeg">
-                            <input type="hidden" name="gambar_crop_e" id="gambar_crop_e">
                         </div>
                         <div class="form-group">    
                             <a href="" id="gambar_sebelumnya" class="btn btn-sm btn-default" target="_blank" style="background-color:#787878;color:white"><i class="fa fa-eye"></i>&nbsp; Lihat</a>
@@ -242,24 +240,6 @@
                 });
                 inputFile.value = '';
                 return false;
-            }else{
-                var files = event.target.files;
-                tanda = 'add';
-
-                var done = function(url){
-                    image.src = url;
-                    $modal.modal('show');
-                };
-
-                if(files && files.length > 0)
-                {
-                    reader = new FileReader();
-                    reader.onload = function(event)
-                    {
-                        done(reader.result);
-                    };
-                    reader.readAsDataURL(files[0]);
-                }
             }
         });
 
@@ -275,73 +255,7 @@
                 });
                 inputFile.value = '';
                 return false;
-            }else{
-                var files = event.target.files;
-                tanda = 'edit';
-
-                var done = function(url){
-                    image.src = url;
-                    $modal.modal('show');
-                };
-
-                if(files && files.length > 0)
-                {
-                    reader = new FileReader();
-                    reader.onload = function(event)
-                    {
-                        done(reader.result);
-                    };
-                    reader.readAsDataURL(files[0]);
-                }
             }
-        });
-
-        $('#closeCrop').click(function(){
-            if(tanda == 'add'){
-                $('#gambar').val('');
-            }else{
-                $('#gambar_edit').val('');
-            }
-        });
-
-        $modal.on('shown.bs.modal', function() {
-            cropper = new Cropper(image, {
-                aspectRatio: 1,
-                viewMode: 0,
-                preview:'.preview',
-                minCropBoxWidth: 100,
-                minCropBoxHeight: 100,
-                zoomOnWheel: false,
-            });
-            this.disabled = true
-            var contData = cropper.getContainerData();
-            cropper.setCropBoxData({ height: contData.height, width: contData.width  })
-        }).on('hidden.bs.modal', function(){
-            cropper.destroy();
-            cropper = null;
-            $modal.modal('hide');
-        });
-
-        $('#crop').click(function(){
-            canvas = cropper.getCroppedCanvas({
-                width:400,
-                height:400
-            });
-
-            canvas.toBlob(function(blob){
-                url = URL.createObjectURL(blob);
-                var reader = new FileReader();
-                reader.readAsDataURL(blob);
-                reader.onloadend = function(){
-                    var base64data = reader.result;
-                    if(tanda == 'add'){
-                        $('#gambar_crop').val(base64data);
-                    }else{
-                        $('#gambar_crop_e').val(base64data);
-                    }
-                    $modal.modal('hide');
-                };
-            });
         });
     })
 

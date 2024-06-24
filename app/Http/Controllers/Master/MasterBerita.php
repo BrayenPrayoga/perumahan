@@ -23,15 +23,11 @@ class MasterBerita extends Controller
     }
 
     public function store(Request $request){
-        
-        if($request->gambar_crop){
-            $destination = 'uploads/master_berita';
-            $imageBlob = explode(";", $request->gambar_crop);
-            $image64 = explode(",", $imageBlob[1]);
-            $image = base64_decode($image64[1]);
-            $name_file = uniqid() . '.png';
-            $move = $destination .'/'. $name_file;
-            file_put_contents($move, $image);
+        if($request->hasFile('gambar')){
+            $file = $request->file('gambar');
+            $name_file = uniqid().'.'.$file->getClientOriginalExtension();
+            $path = public_path().'/uploads/master_berita';
+            $file->move($path,$name_file);
         }else{
             $name_file = null;
         }
@@ -53,19 +49,16 @@ class MasterBerita extends Controller
     public function update(Request $request){
         $data_berita = DB::table('master_berita')->where('id', $request->id_berita)->first();
 
-        if($request->gambar_crop_e){
-            $destination = 'uploads/master_berita';
-            $imageBlob = explode(";", $request->gambar_crop_e);
-            $image64 = explode(",", $imageBlob[1]);
-            $image = base64_decode($image64[1]);
-            $name_file = uniqid() . '.png';
-            $move = $destination .'/'. $name_file;
-            file_put_contents($move, $image);
+        if($request->hasFile('gambar')){
+            $file = $request->file('gambar');
+            $name_file = uniqid().'.'.$file->getClientOriginalExtension();
+            $path = public_path().'/uploads/master_berita';
+            $file->move($path,$name_file);
             
             // Unlink File
-            if(file_exists($destination.'/'.$data_berita->gambar)){
+            if(file_exists($path.'/'.$data_berita->gambar)){
                 if($data_berita->gambar!=null){
-                    unlink($destination.'/'.$data_berita->gambar);
+                    unlink($path.'/'.$data_berita->gambar);
                 }
             }
 
