@@ -82,14 +82,14 @@
 						<span class="focus-input100"></span>
 					</div>
 
-					<div class="wrap-input100 validate-input m-b-16" data-validate = "Kode Aktivasi is required" id="inputAktivasi" style="display:none;">
-						<input class="input100" type="text" name="password" placeholder="Kode Aktivasi" autocomplete="off">
+					<div class="wrap-input100 validate-input m-b-16" data-validate = "Password is required" id="password">
+						<input class="input100" type="password" name="password" placeholder="Password" autocomplete="off">
 						<span class="focus-input100"></span>
 					</div>
 					
 					<div class="container-login100-form-btn m-t-17">
-						<button type="button" id="btnAktivasi" class="login100-form-btn" onclick="sendEmailAktivasi()">AKTIVASI</button>
-						<button class="login100-form-btn" id="btnLogin" style="display:none;">
+						{{-- <button type="button" id="btnAktivasi" class="login100-form-btn" onclick="sendEmailAktivasi()">AKTIVASI</button> --}}
+						<button class="login100-form-btn" id="btnLogin">
 							Login
 						</button>
 					</div>
