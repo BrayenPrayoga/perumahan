@@ -80,8 +80,8 @@ src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js">
                     val.keterangan,
                     tgl_indo(val.tanggal),
                     bukti,
-                    format_rupiah(val.pengeluaran),
                     format_rupiah(val.pemasukan),
+                    format_rupiah(val.pengeluaran),
                     format_rupiah(val.saldo),
                 ]).draw();
             });

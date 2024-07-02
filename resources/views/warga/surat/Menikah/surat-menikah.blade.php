@@ -179,7 +179,7 @@
                     <br><br><br>
                     <div>
                         <br><br><br><br><br>
-                        <span style="padding-left:-10px;">Rasiman</span>
+                        <span style="padding-left:-10px;">Joko Prayitnama</span>
                     </div>
 				</td>
 			</tr>
@@ -200,12 +200,12 @@
                     </div>
 				</td>
                 <td align="center" width="50%">
-                    <span style="padding-top: 10px;">Ketua RT 015 / RW 010</span>
+                    <span style="padding-top: 10px;">Ketua RT 009 / RW 010</span>
                     <br><br><br>
                     <div>
                         <img src="{{url('/tanda_tangan/ttd.png')}}" alt="Tanda Tangan" style="padding-left:15px;height:100px;width:100px;">
                         <br>
-                        <span style="padding-left:-10px;">( Rasiman )</span>
+                        <span style="padding-left:-10px;">( Joko Prayitnama )</span>
                     </div>
 				</td>
 			</tr>

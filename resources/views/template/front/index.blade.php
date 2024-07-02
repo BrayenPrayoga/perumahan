@@ -5,7 +5,7 @@
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Favicon-->
-	<link rel="shortcut icon" href="{{url('/assets/logo.png')}}">
+	<link rel="icon" type="image/png" href="assets/img/icon.png"/>
 	<!-- Author Meta -->
 	<meta name="author" content="colorlib">
 	<!-- Meta Description -->
@@ -15,7 +15,7 @@
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->
-	<title>RT</title>
+	<title>RTKU</title>
 	
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:400,500" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
@@ -290,6 +290,24 @@
 		</div>
 	</section>
 	<!-- End berita Area -->
+
+	<!-- Start video Area -->
+	<section class="callto-area section-gap relative" id="video">
+		<div class="overlay overlay-bg"></div>
+		<div class="container">
+			<div class="row">
+				<?php $video = DB::table('master_video')->first(); ?>
+				<div class="call-wrap mx-auto">
+					<h1>View Last Video</h1>
+					<a id="play-home-video" class="video-play-button" href="{{!empty($video->link)?$video->link : ""}}">
+						<span></span>
+					</a>
+					<p>{{!empty($video->durasi)?$video->durasi : ""}}</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End video Area -->
 
 	<!-- Start testimonial Area -->
 	<section class="testimonial-area relative section-gap" id="testimonial">

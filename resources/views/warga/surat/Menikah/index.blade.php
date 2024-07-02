@@ -227,7 +227,7 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="nama">NIK / No.KTP</label>
-                                    <input type="number" minlength="15" maxlength="17" class="form-control" id="nik_p" name="nik_p" placeholder="Masukan NIK">
+                                    <input type="number" minlength="15" maxlength="17" class="form-control" id="nik_p" name="nik_p" value="{{ Auth::guard('user')->user()->nik_ktp }}" placeholder="Masukan NIK">
                                 </div>
                                 <div class="form-group">
                                     <label for="nama">Agama</label>
@@ -642,6 +642,7 @@
         $('#status_nikah_e').val(item.status_nikah);
 
         $.get("{{URL::to('/surat-menikah/get-detail/')}}",{id:item.id,data:'diri'}, function( data ) {
+            console.log(data);
             $('#nama_e').val(data[0].nama);
             $('#tmp_lahir_e').val(data[0].tempat_lahir);
             flatpickr("#tgl_lahir_e").setDate(data[0].tgl_lahir);

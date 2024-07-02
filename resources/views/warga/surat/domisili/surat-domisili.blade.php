@@ -49,9 +49,9 @@
     <!-- <body> -->
     	<center>
 			<span style="font-size: 15px;"><b>PEMERINTAHAN PROVINSI DAERAH KHUSUS IBU KOTA JAKARTA</b></span><br>
-            <span style="font-size: 17px;"><b>RUKUN TETANGGA RT 015 RW 010</b></span><br>
-            <span style="font-size: 17px;"><b>KELURAHAN CIRACAS, KECAMATAN CIRACAS</b></span><br>
-			<span style="font-size: 14px;">Jalan Centex Gg. Epatik II Dalam, RT. 015 / RW. 010, Ciracas</span>
+            <span style="font-size: 17px;"><b>RUKUN TETANGGA RT 009 RW 010</b></span><br>
+            <span style="font-size: 17px;"><b>KELURAHAN JONGGOL, KECAMATAN JONGGOL</b></span><br>
+			<span style="font-size: 14px;">Perumahan Citra Indah City, Bukit Angsana RT 009 RW 010, Jonggol</span>
     	</center>
 		<br>
 			<hr style="border:1px solid #000;">
@@ -63,13 +63,13 @@
     	</table>
 		<table border="0" style="width: 100%; font-size: 14px;">
 		<tr>
-			<td align="center" style="font-weight: bold;">No.  015/010/SKD/</td>
+			<td align="center" style="font-weight: bold;">No.  009/010/SKD/</td>
 		</tr>
 		</table>
         <br>
     	<table border="0" style="width: 100%;">
     		<span>
-                Yang bertanda tangan dibawah ini Pengurus RT. 015 / RW. 010 Kelurahan Ciracas, Kecamatan Ciracas, Jakarta Timur dengan ini menerangkan :
+                Yang bertanda tangan dibawah ini Pengurus RT. 009 / RW. 010 Kelurahan Jonggol, Kecamatan Jonggol, Jawa Barat dengan ini menerangkan :
             </span>
     	</table>
     	<br><br>
@@ -136,12 +136,12 @@
 				<td align="center">
 					<span style="float: right;">Jakarta, {{date('d F Y')}}</span>
 					<br>
-                    <span style="float: right;padding-top: 10px;">Pengurus RT 015 / 010</span>
+                    <span style="float: right;padding-top: 10px;">Pengurus RT 009 / 010</span>
 					<br><br><br>
 					<div width="40%" style="float: right;">
 						<img src="{{url('/tanda_tangan/ttd.png')}}" alt="Tanda Tangan" style="padding-right:15px;height:100px;width:100px;">
 						<br>
-						<span style="padding-right:-10px;">Rasiman</span>
+						<span style="padding-right:-10px;">Joko Prayitnama</span>
                     </div>
 				</td>
 			</tr>
